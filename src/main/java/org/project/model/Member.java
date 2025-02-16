@@ -9,6 +9,7 @@ public class Member {
         this.id = id;
         this.name = name;
         this.superCoins = superCoins;
+
     }
 
     public int getId() {

@@ -50,6 +50,7 @@ public class AuctionService {
     }
 
     public Auction getAuctionById(int eventId) {
+
         return auctionMap.get(eventId);
     }
 

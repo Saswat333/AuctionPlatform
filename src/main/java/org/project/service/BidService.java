@@ -61,6 +61,7 @@ public class BidService {
     }
 
     public List<Bid> getBidsByEventId(int eventId) {
+
         return eventIdToBidsMap.get(eventId);
     }
 

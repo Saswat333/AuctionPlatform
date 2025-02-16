@@ -17,6 +17,7 @@ public class Bid {
     }
 
     public int getMemberId() {
+
         return memberId;
     }
 

@@ -58,6 +58,7 @@ public class Auction {
     }
 
     public void addMember(Member member){
+
         members.add(member);
     }
 

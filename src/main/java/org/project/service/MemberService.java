@@ -11,6 +11,7 @@ public class MemberService {
     private AtomicInteger numMembers = new AtomicInteger(0); //uuid
 
     public MemberService() {
+
         this.memberMap = new HashMap<>();
     }
 

@@ -54,5 +54,6 @@ public class HighestBidWinStrategy implements BidWinningStrategy {
             return memberService.getMemberById(winnerId);
         }
         return null;
+
     }
 }
